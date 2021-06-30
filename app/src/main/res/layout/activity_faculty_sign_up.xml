@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FacultySignUpActivity"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter details below to create account"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="After Successful Account Creation,Please Wait for the Account activation by Admin"
+        android:textColor="#ffff0000"
+        android:textSize="16sp"/>
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo"
+        />
+    <EditText
+        android:id="@+id/faculty_signUp_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_marginTop="20dp"
+        android:inputType="textEmailAddress"
+        />
+    <EditText
+        android:id="@+id/faculty_signUp_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Set Password"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        />
+    <EditText
+        android:id="@+id/faculty_signUp_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:layout_marginTop="20dp"
+        android:inputType="textPersonName"
+        />
+    <EditText
+        android:id="@+id/faculty_signUp_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:layout_marginTop="20dp"
+        android:inputType="phone"
+        />
+    <Spinner
+        android:id="@+id/faculty_signUp_dept_spinner"
+        android:spinnerMode="dropdown"
+        android:layout_centerVertical= "true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/faculty_signUp_btn_create_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="Create Account"
+        android:layout_margin="10dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        />
+
+
+</LinearLayout>

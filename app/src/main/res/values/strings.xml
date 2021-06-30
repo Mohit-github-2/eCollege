@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">eCollege</string>
+    <string-array name="department">
+        <item>Select your Department</item>
+        <item>Computer Science and Engineering</item>
+        <item>Electronics and Communication Engineering</item>
+        <item>Aeronautical Engineering</item>
+        <item>Aerospace Engineering</item>
+        <item>Bio-Medical Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Electrical Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Automobile Engineering</item>
+
+    </string-array>
+    <string-array name="section">
+        <item>Select Year and Section</item>
+        <item>First Year(A)</item>
+        <item>First Year(B)</item>
+        <item>First Year(C)</item>
+        <item>First Year(D)</item>
+        <item>First Year(E)</item>
+        <item>First Year(F)</item>
+        <item>Second Year(A)</item>
+        <item>Second Year(B)</item>
+        <item>Second Year(C)</item>
+        <item>Second Year(D)</item>
+        <item>Second Year(E)</item>
+        <item>Second Year(F)</item>
+        <item>Third Year(A)</item>
+        <item>Third Year(B)</item>
+        <item>Third Year(C)</item>
+        <item>Third Year(D)</item>
+        <item>Third Year(E)</item>
+        <item>Third Year(F)</item>
+        <item>Fourth Year(A)</item>
+        <item>Fourth Year(B)</item>
+        <item>Fourth Year(C)</item>
+        <item>Fourth Year(D)</item>
+        <item>Fourth Year(E)</item>
+        <item>Fourth Year(F)</item>
+
+
+    </string-array>
+</resources>

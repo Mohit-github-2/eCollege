@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentLoginActivity"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hey! Welcome Back🙏"
+        android:textColor="@color/colorAccent"
+        android:fontFamily="sans-serif-black"
+        android:textSize="30sp"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/student_login_USN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/colorAccent"
+        android:hint="Enter USN/Roll no."
+        android:inputType="text"
+        android:textColorHint="@color/colorAccent"/>
+    <EditText
+        android:id="@+id/student_login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/colorAccent"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/colorAccent"/>
+    <Button
+        android:id="@+id/student_login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Login"
+        android:textColor="#ffffff"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/student_login_tv_forgot_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        android:text="Lost Password?"
+        android:textColor="#ffff0000"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/student_login_tv_signUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Not Registered? Create an account now"
+       android:layout_marginTop="20dp"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="center"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1040562258970",
+    "firebase_url": "https://ecollege-2020.firebaseio.com",
+    "project_id": "ecollege-2020",
+    "storage_bucket": "ecollege-2020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040562258970:android:ef63e0901f5993b1f0bda3",
+        "android_client_info": {
+          "package_name": "com.uniquik.ecollege"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040562258970-rgmv673o8nntrl706jc8e1lsvbrftcnb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uniquik.ecollege",
+            "certificate_hash": "3a24e888ee714b4d9d5f2da39bd62e6e01ec6493"
+          }
+        },
+        {
+          "client_id": "1040562258970-78gvi38f42u15hennoppr1kc0buivd8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZyK0sKNXK3a0JuFn-JlpQQtj_a13tqY0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040562258970-78gvi38f42u15hennoppr1kc0buivd8b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
